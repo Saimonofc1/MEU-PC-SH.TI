@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,700&family=Kanit:wght@100&family=Nunito:wght@200&display=swap"/>
+    <link rel="icon" type="image/jpg" href="./imagens/Imagens do CEM/CEM.png"/>
+    <link rel="stylesheet" href="styleCem.css">
+    <script defer src="./script.js"></script>
+    <script defer src="./scripit2.js"></script>
+    <title> INSTITUTO CEM</title>
+  </head>
+  <body>
+      <nav id = "topo">
+        <div class="logo">  
+        <a href="https://pt-br.facebook.com/CEManhuacu/" target="_blank">
+              <img src="./imagens/Imagens do CEM/C3M.png" width="55px" />
+          </a>
+          </div>  
+          <h1 class="titleCem" >INSTITUTO CEM</h1>
+          <ul>
+              <li><a class="menu" href="#">INICIO</a></li>
+              <li><a class="menu" href="#informativo">INFORMATIVO</a></li>
+              <li><a class="menu" href="#cursos">CURSOS</a></li>
+              <li><a class="menu" href="#carrosel">FOTOS</a></li>
+              <li><a class="menu" href="#form">FORMULÁRIO</a></li>
+              <li><a class="menu" href="#contato">CONTATO</a></li>
+          </ul> 
+      </nav>
+      <header class="container">
+          <div class="content">
+            <h1 class="title">Preparando nossos alunos para o futuro</h1>
+            <p class="paragraph">Estamos em constante transformação para nos adaptarmos ao mundo que muda o tempo todo</p>
+            <div class="div-button">
+              <a href="#form">
+                <button class="button">SAIBA MAIS</button>
+              </a>
+            </div>
+          </div>
+      </header>
+        <section id="informativo">
+          <div class="infoCem">
+            <div class="containerInfo">
+              <h1 class="infoTitle">Instituto CEM</h1>
+              <p>O Centro Educacional de Manhuaçu nasceu com o propósito de oferecer uma Educação de alta qualidade, por mensalidades que cabem no seu bolso.
+
+                Temos uma metodologia própria de ensino,  inspirada em referências já reconhecidas e comprovadas, com práticas escolares inovadoras, focadas no desenvolvimento da autonomia para uma aprendizagem profunda, eficiente e conectada ao nosso tempo.
+                
+                Os estudantes, dos Ensinos Fundamental I, II e Médio, têm atividades em tempo integral, um chromebook por aluno a partir do Fundamental II, laboratórios “mão na massa” (Makerlabs) e aulas de inglês todos os dias.</p>
+            </div>
+              <div>
+                <img src="./imagens/Imagens do CEM/infoImage.jpg" class="imgInfo" />
+              </div>
+          </div>
+        </section>
+        <div class="containerCursos">
+          <section id="cursos">
+            <h2>Nossos Cursos:</h2>
+            <div class="imgCursos1">
+              <div>
+                <img class="contentCursos1" src="./imagens/Imagens do CEM/ES.png" />
+                  <a href="./cursos.html">
+                      <button class="cursosButton1">FUNDAMENTAL</button>
+                  </a>    
+              </div>
+                
+                <div>
+                  <img class="contentCursos2" src="./imagens/Imagens do CEM/TR1.jpg" />
+                     <a href="./cursos.html">
+                        <button class="cursosButton1">CURSO TRILHAS</button>
+                     </a>  
+                </div>
+                
+              </div>
+            </section>
+
+             <!-- DIVISAO DE DIVS CURSO -->
+          <section>
+            <div class="imgCursos2">
+              <div>
+                <img class="contentCursos1" src="./imagens/Imagens do CEM/im.png" />
+                 <a href="./cursos.html">
+                    <button class="cursosButton2">MIX</button>
+                 </a>
+              </div>
+             
+                <div>
+                  <img class="contentCursos2" src="./imagens/Imagens do CEM/unopar.jpg" />
+                   <a href="./cursos.html">
+                      <button class="cursosButton2">UNOPAR</button>
+                   </a>
+                </div>
+                
+            </div> 
+          </section>
+        </div>
+    
+      <h2 id="carrossel" class="containerCursosT">Fotos:</h2>
+      <section class="sectionSlider">
+        <div class="slides">
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+          <input type="radio" name="radio-btn" id="radio4">
+          <input type="radio" name="radio-btn" id="radio5">
+          <div class="imgSlide first" >
+            <img src="./imagens/imagensSlides/cem1.jpg" />
+          </div>
+          <div class="imgSlide" >
+            <img src="./imagens/imagensSlides/cem2.jpg" />
+          </div>
+          <div class="imgSlide">
+            <img src="./imagens/imagensSlides/cem3.jpg" />
+          </div>
+          <div class="imgSlide">
+            <img src="./imagens/imagensSlides/cem4.jpg" />
+          </div>
+          <div class="imgSlide">
+            <img src="./imagens/imagensSlides/cem5.jpg" />
+          </div>
+        </div>
+        <div class="navigation">
+          <div class="btn-1"></div>
+          <div class="btn-2"></div>
+          <div class="btn-3"></div>
+          <div class="btn-4"></div>
+          <div class="btn-5"></div>
+        </div>
+        <div class="label-nav">
+          <label for="radio1" class="label-btn"></label>
+          <label for="radio2" class="label-btn"></label>
+          <label for="radio3" class="label-btn"></label>
+          <label for="radio4" class="label-btn"></label>
+          <label for="radio5" class="label-btn"></label>
+        </div>
+      </section>
+       
+      
+<section class="sectionForm">
+<form id="form" action="https://api.staticforms.xyz/submit" method="post" class="form">
+  <input type="hidden" name="accessKey" value="1824e7d3-5c4b-40d9-a4b3-b9151beea9fa">
+  <!-- <input type="hidden" name="redirectTo" value="o site que é para redirecionar"> -->
+  <h1 class="formText">SE INTERESSOU?</h1>
+  <h4 class="formText">Preencha o formulário para receber mais informações</h4>
+  <input class="input" type="text" name="name" required placeholder="Nome Completo" />
+  <input class="input" type="number" name="phone" placeholder="Telefone ou Celular" />
+  <input class="input" type="email" name="email" required placeholder="E-mail" />
+  <select>
+        <option>Escola Cem</option>
+        <option>Instituto Mix</option>
+        <option>Trilhas do Futuro</option>
+        <option>UNOPAR</option>
+  </select>
+  <textarea class="input" name="message" placeholder="Digite aqui sua Mensagem" rows="5" maxlength="256"></textarea>
+    <div>
+      <input type="checkbox" name="subject" />
+      <span>Declaro que li e concordo com a Política de Privacidade, bem como com o tratamento dos meus dados para fins de prospecção dos serviços educacionais prestados pela instituição de ensino CEM.</span>
+    </div>
+  <button class="buttonf" type="submit">Enviar</button>
+</form>
+</section>
+<footer id="contato">
+<div class="footerimg">
+  <img src="./imagens/Imagens do CEM/cempk.png" width="150px"/>
+</div>
+  <h2 class="contatoH2">Entre em contato também pelas nossas redes:</h2>
+  <div class="contatoimages">
+      <div>
+          <a target="_blank" href="https://www.google.com/search?q=escola+cem&rlz=1C1CHBD_pt-PTBR980BR980&sxsrf=ALiCzsYXNKJ8hU6BewuocLFzdFr_OKsiyQ%3A1663783774746&ei=XlMrY9_yLOHW1sQP0N2QiAo&ved=0ahUKEwjfmYHHvab6AhVhq5UCHdAuBKEQ4dUDCA4&uact=5&oq=escola+cem&gs_lcp=Cgdnd3Mtd2l6EAMyBAgjECcyBAgjECcyCAgAEIAEELEDMgsILhCABBDHARCvATIFCAAQgAQyCwguEIAEEMcBEK8BMgsILhCABBDHARCvATILCC4QgAQQxwEQrwEyCwguEIAEEMcBEK8BMgsILhCABBDHARCvAToKCAAQRxDWBBCwAzoECAAQQzoLCAAQgAQQsQMQgwE6DgguELEDEIMBEMcBENEDOgQILhAnOggIABCxAxCDAToHCAAQsQMQQzoOCC4QgAQQsQMQgwEQ1AI6CggAELEDEIMBEApKBAhBGABKBAhGGABQ3RdYzyBgwSFoAXABeACAAagBiAHNCpIBAzAuOZgBAKABAcgBCMABAQ&sclient=gws-wiz">
+            <img src="./imagens/icons/wpp.png" width="50px" />
+          </a>
+      </div>
+      <div>
+        <a href="https://www.facebook.com/CEManhuacu/" target="_blank">
+          <img src="./imagens/icons/face.png" width="50px" />
+        </a>
+      </div>
+      <div>
+        <a href="https://www.instagram.com/cem.manhuacu/" target="_blank">
+          <img src="./imagens/icons/insta.png" width="50px" />
+        </a>
+      </div>
+  </div>
+  <p class="contatoH2">CEM - Centro Educacional de Manhuaçu - todos direito reservados</p>
+</footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

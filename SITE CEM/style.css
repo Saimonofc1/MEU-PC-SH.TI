@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background: url('./imagens/Imagens\ do\ CEM/cemform.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+  }
+  .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: white;
+    text-align:justify
+  }
+  
+
+
+.title{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    margin-top: 10px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    text-shadow: black 0.1em 0.1em 0.2em;
+  }
+  .button {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #f3ef02;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+    border: none;
+  }
+  .button:hover{
+    background-color: #041e50;
+  }
+
+.imgCursos1{
+    margin: 20px;
+    padding: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap:0;
+    justify-content: space-around;
+  
+    
+    
+  }
+  a{
+    text-decoration: none;
+  }
+  .imgCursos2{
+    margin: 20px;
+    padding: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap:0;
+    justify-content: space-around;
+    
+  }
+  
+  .cursosButton1{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px;
+    margin-left: 130px;
+    background-color: transparent;
+    border: 2px solid #050783;
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 10px 50px;
+    transition: all 0.6s;
+    overflow: hidden;
+    box-shadow: black 0 0 0.1em;
+  }
+  
+  .cursosButton2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 160px;
+    background-color: transparent;
+    border: 2px solid #050783;
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 10px 50px;
+    transition: all 0.6s;
+    overflow: hidden;
+    box-shadow: black 0 0 0.1em;
+  }
+  .cursosButton2:hover {
+    background-color: #08a2df;
+    color: white;
+  }
+  
+  
+  .cursosButton1:hover {
+    background-color: #08a2df;
+    color: white;
+    }  
+  .contentCursos1{
+    border: solid 1px white ;
+    width: 500px;
+    width: 500px;
+    height: 400px;
+    overflow: hidden;
+    box-shadow: black 0 0 0.2em;
+  
+  }
+  .contentCursos2{
+    border: solid 1px white ;
+    width: 500px;
+    width: 500px;
+    height: 400px;
+    overflow: hidden;
+    box-shadow: black 0 0 0.2em;
+  
+  
+  }
+  .contentCursos3{
+    border: solid 1px white ;
+    width: 500px;
+    height: 400px;
+    overflow: hidden;
+    box-shadow: black 0 0 0.2em;
+  
+  
+  
+  }
+  .contentCursos4{
+    border: solid 1px white ;
+    width: 500px;
+    width: 500px;
+    height: 400px;
+    overflow: hidden;
+    box-shadow: black 0 0 0.2em;
+  
+  }
+  
+  .cursostext{
+  background-color: white ;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px 0;
+  }
+  
+  .cursosButton:hover {
+    background-color: rgba(0, 167, 237, 0.25);
+    }  
+  
+  
+  h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: #0b3a81;
+    margin: 10px;
+    text-align: center;
+  }
