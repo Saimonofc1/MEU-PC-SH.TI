@@ -1,0 +1,16 @@
+C:\Users\heric\OneDrive\Área de Trabalho\TrabalhoProduto\bin\Debug\net5.0\TrabalhoProduto.exe
+C:\Users\heric\OneDrive\Área de Trabalho\TrabalhoProduto\bin\Debug\net5.0\TrabalhoProduto.deps.json
+C:\Users\heric\OneDrive\Área de Trabalho\TrabalhoProduto\bin\Debug\net5.0\TrabalhoProduto.runtimeconfig.json
+C:\Users\heric\OneDrive\Área de Trabalho\TrabalhoProduto\bin\Debug\net5.0\TrabalhoProduto.runtimeconfig.dev.json
+C:\Users\heric\OneDrive\Área de Trabalho\TrabalhoProduto\bin\Debug\net5.0\TrabalhoProduto.dll
+C:\Users\heric\OneDrive\Área de Trabalho\TrabalhoProduto\bin\Debug\net5.0\TrabalhoProduto.pdb
+C:\Users\heric\OneDrive\Área de Trabalho\TrabalhoProduto\obj\Debug\net5.0\TrabalhoProduto.csproj.AssemblyReference.cache
+C:\Users\heric\OneDrive\Área de Trabalho\TrabalhoProduto\obj\Debug\net5.0\TrabalhoProduto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\heric\OneDrive\Área de Trabalho\TrabalhoProduto\obj\Debug\net5.0\TrabalhoProduto.AssemblyInfoInputs.cache
+C:\Users\heric\OneDrive\Área de Trabalho\TrabalhoProduto\obj\Debug\net5.0\TrabalhoProduto.AssemblyInfo.cs
+C:\Users\heric\OneDrive\Área de Trabalho\TrabalhoProduto\obj\Debug\net5.0\TrabalhoProduto.csproj.CoreCompileInputs.cache
+C:\Users\heric\OneDrive\Área de Trabalho\TrabalhoProduto\obj\Debug\net5.0\TrabalhoProduto.dll
+C:\Users\heric\OneDrive\Área de Trabalho\TrabalhoProduto\obj\Debug\net5.0\refint\TrabalhoProduto.dll
+C:\Users\heric\OneDrive\Área de Trabalho\TrabalhoProduto\obj\Debug\net5.0\TrabalhoProduto.pdb
+C:\Users\heric\OneDrive\Área de Trabalho\TrabalhoProduto\obj\Debug\net5.0\TrabalhoProduto.genruntimeconfig.cache
+C:\Users\heric\OneDrive\Área de Trabalho\TrabalhoProduto\obj\Debug\net5.0\ref\TrabalhoProduto.dll
